@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- Config for bimanual fitts task human lab -->
+<Config version="2">
+
+<TargetComponent	index="1"	type="float"	name="ID"		desc="Index difficulty of the trial, in bits, it is used to compute specific values for all targets/markers"/>
+<TargetComponent	index="2"	type="float"	name="Amplitude"	desc="Distance between ipsilateral target centroids (cm)"/>
+<TargetComponent	index="3"	type="float"	name="HDist"		desc="Distance between contralateral target centroids (cm)"/>
+<TargetComponent	index="4"	type="float"	name="VDist"		desc="Distance between origin and bottom rectangles centroids (cm)"/>
+<TargetComponent	index="5"	type="float"	name="Width"		desc="Target's width(cm)"/>
+<TargetComponent	index="6"	type="int"	name="Colour"		desc="Target colour in the format RRRGGGBBB eg: 000000000 = Black, 255255255 = White"/>
+<TargetComponent	index="7"	type="float"	name="MarkDist"		desc="Horizontal distance between target centroid and marker (cm)"/>
+<TargetComponent	index="8"	type="float"	name="MarkRadius"	desc="Radius of markers (cm)"/>
+<TargetComponent	index="9"	type="int"	name="MarkColour"	desc="Markers colour in the format RRRGGGBBB eg: 000000000 = Black, 255255255 = White"/>
+
+<TLComponent	index="1"	type="int"		name="PreOscDelay"	desc="Delay between subjects reaching targets and markers disappearance (ms)"/>
+<TLComponent	index="2"	type="int"		name="InterTrialDelay"	desc="Delay between trials (ms)"/>
+<TLComponent	index="3"	type="float"		name="FeedbackScaling"	desc="Scaling factor for the feedback transformation" />
+
+</Config>
